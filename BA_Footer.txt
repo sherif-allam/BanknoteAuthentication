@@ -1,0 +1,8 @@
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot{}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyfoot[L]{Banknote Authentication System using Machine Learning}
+\rfoot{\thepage\ of \pageref{LastPage}}
+\fancypagestyle{plain}{\pagestyle{fancy}}
